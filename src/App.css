@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media (max-aspect-ratio:7/10) {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    .Joinpage{
+        
+        display: flex;
+        justify-content: center;
+        align-items: flex-start !important;
+        
+    }
+    .JoinContainer{
+        margin-top: 35vw !important;
+        width: 100% !important;
+    }
+    
+    .JoinContainer > img{
+        width: 15vw !important;
+    } 
+    
+    .JoinContainer > h1{
+        font-size: 6vw;
+        width: 55vw !important;
+        border-bottom: 0.5vw solid gold;
+        padding: 3vw !important;
+        
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    #joinInput{
+        width: 55vw !important;
+        padding: 4vw !important;
+        font-size: 5vw !important;
+        margin: 5vw !important;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    .joinbtn{
+        width: 55vw !important;
+        padding: 4vw !important;   
+        font-size: 5vw !important;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    /* chat */
+    .chatContainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+        
+    }
+
+    .header{
+        height: 10% !important;
+    }
+
+    .header>h2{
+        margin: 6vw !important;
+        font-size: 6vw !important;
+        
+    }
+    
+    .header img{
+        margin: 5vw !important;
+        transform: scale(1.5) !important;
+    }
+
+    .header>img:hover{
+        transform: scale(2.2) !important;
+    }
+
+    .chatBox{
+        height: 70% !important;
+    }
+
+    #chatInput{  
+        padding: 4vw !important;
+        font-size: 5vw !important;
+        height: 20% !important;
+    }
+    
+    
+    /* message */
+
+    .messageBox{
+        padding: 1.5vw !important;
+        margin: 2.5vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 4.5vw !important;
+    
+    }
+    
+    
+    
 }
